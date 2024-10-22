@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Table Form Example</title>
+   
+</head>
+<style>
+   table ,tr,td {
+            border-collapse: collapse;
+            border: 2px;
+           
+    
+    }
+    
+</style>
+<body>
+<form action="">
+    <table border="1" align="center">
+        <tr>
+            <th><label for="name">Name:</label></th>
+            <td><input type="text" id="name" name="name" placeholder="enter name"></td>
+        </tr>
+        <tr>
+            <th><label for="no">Mobile no.:</label></th>
+            <td><input type="number" id="no" name="Mobile no." placeholder="enter mob.no."></td>
+        </tr>
+        <tr>
+            <th><label for="email">Email:</label></th>
+            <td><input type="email" id="email" name="email" placeholder="enter email"></td>
+        </tr>
+        <tr>
+            <th><label for="male">Gender:</label>
+            </th>
+            <td>
+                <label for="male">Male</label>
+                <input type="radio" id="male" name="Gender">
+                <label for="Female">Female</label>
+             <input type="radio" id="Female" name="Gender">
+            </td>
+            </tr>
+            <tr>
+                <th><label for="date">DOB:</label></th>
+                <td><input type="date" id="date" name="date"></td>    
+            </tr>
+            <tr>
+                <th><label for="file">image:</label></th>
+                <td><input type="file" id="file" name="file" action=""></td>    
+            </tr>
+            <tr>
+                <th><label for="option">Option</label></th>
+               <td><select name="option" id="option">
+                <option value=" option1">option1</option>
+                <option value=" option2">option2</option> 
+                <option value=" option3">option3</option>  
+            </select>  </td>
+            </tr>
+        <tr>
+            <th><label for="checkbox">Checkbox:</label></th>
+            <td><input type="checkbox" id="checkbox" name="checkbox">TC apply</td>
+        </tr>
+        <tr>
+            <td></td>
+            <td><input type="submit" value="Submit"> <input type="reset" value="Reset"></td>
+        </tr>
+    </table>
+</form>
+
+</body>
+</html>

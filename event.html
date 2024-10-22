@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<script>
+    function oneclick(event){
+        console.log(event.clientX)
+        console.log(event.clientY)
+        if (event.clientX>250) {
+            document.body.style.background="red"
+        }
+    }
+</script>
+<body onmousewheel="oneclick(event)">
+    <h1>Events </h1>
+    <input type="text" placeholder="enter text" onmousewheel="oneclick(event)">
+</body>
+</html>

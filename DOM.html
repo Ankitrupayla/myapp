@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM</title>
+</head>
+<script>
+    // 
+    // function myone(){
+    //          let a = document.getElementById("one").innerHTML= one;
+    //         console.log(a);
+    // }
+    
+    // function myone(){
+    //          let a = document.getElementById("one").innerText= one;
+    //         console.log(a);
+    // }
+
+    //  function myone(){
+    //          let a = document.getElementById("two").setAttribute("style","background-color: green")
+    //        console.log(a);
+    // }
+
+    // function myone(){
+    //          let a = document.getElementById("two").getAttributeNode("id")
+    //        console.log(a); 
+    // }
+
+// function myone(){
+//              let a = document.getElementById("two").setAttribute("style","border:5px solid blue" )
+//            console.log(a);
+//     }
+let a = document.getElementById("one").addEventListener(oneclick="abc")
+console.log(a)
+</script>
+<body>
+    <div id="one" oneclick="abc">
+        <h1>DOM</h1>
+        <html>
+            
+        </html>
+    </div>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae deserunt repudiandae aut esse fuga distinctio dolor soluta. Nam consequuntur quidem inventore, qui velit aspernatur sunt obcaecati laborum dolorem minus facilis.</p>
+    <div>
+        <ul id="two" class="main" >
+            <li>item-1</li>
+            <li>item-2</li>
+            <li>item-3</li>
+            <li>item-4</li>
+            <li>item-5</li>
+            <li>item-6</li>
+
+        </ul>
+        <table>
+        <form action="" id="three" class="main" style=" display: flex;">
+            <label for="text">Name:-</label>
+            <input type="text" placeholder="Enter Name">
+            <label for="text"> Father Name:-</label>
+            <input type="text" placeholder="Enter Father Name">
+            <label for="text">Mother Name:-</label>
+            <input type="text" placeholder="Enter Mother Name">
+            <label for="text">City:-</label>
+            <input type="text" placeholder="Enter City">
+            <label for="number">Mo. Number:-</label>
+            <input type="number" placeholder="Enter Name">
+            <input type="button" value="submit">
+        </form>
+    </table>
+    </div>
+</body>
+</html>
